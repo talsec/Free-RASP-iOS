@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "R.swift.Library",
+        "repositoryURL": "https://github.com/mac-cain13/R.swift.Library.git",
+        "state": {
+          "branch": null,
+          "revision": "8998cfe77f4fce79ee6dfab0c88a7d551659d8fb",
+          "version": "5.4.0"
+        }
+      },
+      {
+        "package": "Swinject",
+        "repositoryURL": "https://github.com/Swinject/Swinject",
+        "state": {
+          "branch": null,
+          "revision": "f10b6e9ebff440f985c43008f7c2d097639fcb81",
+          "version": "2.8.1"
+        }
+      },
+      {
+        "package": "SwinjectAutoregistration",
+        "repositoryURL": "https://github.com/Swinject/SwinjectAutoregistration",
+        "state": {
+          "branch": null,
+          "revision": "9936170fd1a5e8c141a21de987c48cc4e0d6c943",
+          "version": "2.8.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

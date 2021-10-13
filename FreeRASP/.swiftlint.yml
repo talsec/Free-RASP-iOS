@@ -1,0 +1,43 @@
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Resources
+disabled_rules:
+  - line_length
+  - cyclomatic_complexity
+  - function_body_length
+  - trailing_whitespace
+  - trailing_comma
+  - type_body_length
+identifier_name:
+  max_length:
+    warning: 40
+    error: 60
+  min_length:
+    warning: 0
+type_name:
+  max_length:
+    warning: 50
+    error: 60
+  min_length:
+    warning: 0
+custom_rules:
+  white_char_ending: # rule identifier
+    included: ".*.swift" # regex that defines paths to include during linting. optional.
+    name: "White character ending" # rule name. optional.
+    regex: "([^ \t\r\n])[ \t]+$" # matching pattern
+    message: "Biele znaky su na konci riadka zbytocne.😎" # violation message. optional.
+    severity: warning # violation severity. optional.
+    match_kinds: # SyntaxKinds to match. optional.
+      - argument
+      - attribute.builtin
+      - attribute.id
+      - buildconfig.id
+      - buildconfig.keyword
+      - identifier
+      - keyword
+      - number
+      - objectliteral
+      - parameter
+      - placeholder
+      - string
+      - string_interpolation_anchor
+      - typeidentifier
