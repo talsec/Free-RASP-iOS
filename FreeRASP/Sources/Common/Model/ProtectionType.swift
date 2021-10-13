@@ -28,7 +28,7 @@ enum ProtectionType {
         case .debugger:             return 53
         case .simulator:            return 47
         case .runtimeManipulation:  return 53
-        case .deviceBinding:        return 31
+        case .deviceBinding:        return 0
         }
     }
 

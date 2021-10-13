@@ -30,6 +30,7 @@ class SecurityService {
 
 extension SecurityThreatCenter: SecurityThreatHandler {
     public func threatDetected(_ securityThreat: SecurityThreat) {
+        print("Found incident: \(securityThreat)")
         SecurityService.shared.appendThreat(securityThreat)
     }
 }

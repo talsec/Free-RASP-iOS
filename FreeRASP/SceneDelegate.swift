@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window.makeKeyAndVisible()
         self.window = window
         
-        let config = TalsecConfig(appBundleIds: ["com.aheaditec.cybetribe"], appTeamId: "ASQC376HCN", watcherMailAddress: "info@talsec.app")
+        let config = TalsecConfig(appBundleIds: ["your_bundle_id"], appTeamId: "your_team_id", watcherMailAddress: "your@email.com")
         Talsec.start(config: config)
     }
 
