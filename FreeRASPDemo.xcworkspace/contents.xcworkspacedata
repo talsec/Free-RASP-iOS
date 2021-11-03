@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/martinpristas/Documents/Work/ahead/CybeTribe-iOS-Lite/FreeRASPDemo.xcodeproj">
+      location = "group:FreeRASPDemo.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Talsec">
