@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/CurlWrapper.h</key>
 		<data>
-		rnce4m9t4npznojK1wS43Rw96iY=
+		2VgZctmpGid0/RmYtqd0fr852O8=
 		</data>
 		<key>Headers/TalsecRuntime-Swift.h</key>
 		<data>
-		wIaRpjAh+EBJ/v0gx98RlDpmwGY=
+		7mR0R6sb9ayaeyBEvukb4+v50RQ=
 		</data>
 		<key>Headers/TalsecRuntime_iOS.h</key>
 		<data>
@@ -58,59 +58,63 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8zqkFuvnS+FQXiU5zIT88Zrd1mM=
+		2+4oxtgeRf/UYGKVj1tAFwQ7/mI=
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		stkxZPC44bZNiZ87Kk48N1coVPs=
+		uvbj+EQVI2+oAMfjPURNRdCjrPQ=
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		snhZw2VUs/+FFqova3BGTRFjeUk=
+		Rb8PM7n4I68lJFO9VtarIb74TP4=
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		E/Qs/a1mS1GVLjxDAUjb+nBYY3s=
+		WvinsUHztnUfKHYVXVEk5S2R/Yc=
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		stkxZPC44bZNiZ87Kk48N1coVPs=
+		uvbj+EQVI2+oAMfjPURNRdCjrPQ=
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		snhZw2VUs/+FFqova3BGTRFjeUk=
+		Rb8PM7n4I68lJFO9VtarIb74TP4=
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		E/Qs/a1mS1GVLjxDAUjb+nBYY3s=
+		WvinsUHztnUfKHYVXVEk5S2R/Yc=
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		j7O7mayd9ehAm+hFaOch/VXYj00=
+		3ZvVRAjfieObkin7RlVxq15SRVE=
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		tV65yGzSCiz/pxsm/EvZlUJlB0k=
+		/TgRJFCWWFvLR7BJKtU9hTlofG4=
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TNbLVBLtj14RAau5cNyUr2ZG4Rg=
+		pwTpbZvC+BSlSCUCw/xJZgelY/U=
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		j7O7mayd9ehAm+hFaOch/VXYj00=
+		3ZvVRAjfieObkin7RlVxq15SRVE=
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		tV65yGzSCiz/pxsm/EvZlUJlB0k=
+		/TgRJFCWWFvLR7BJKtU9hTlofG4=
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		TNbLVBLtj14RAau5cNyUr2ZG4Rg=
+		pwTpbZvC+BSlSCUCw/xJZgelY/U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		Zm4BiVJEAy1TCWripgHRuNDhLJk=
+		</data>
+		<key>cacert.pem</key>
+		<data>
+		ZuymGpM+ORehjpgNq0JDEbnQb40=
 		</data>
 		<key>module.modulemap</key>
 		<data>
@@ -130,14 +134,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0HrQTDfJ+A+hMakfR5z7L+ABVNsTCi5y+/q0xkBZ+co=
+			/x3INwb4amFzfPWTUcYU1oBDC47Xep+6EgdXgQDqXG8=
 			</data>
 		</dict>
 		<key>Headers/TalsecRuntime-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tImaTvhHRUd7Qo7kufGW/Lwh9t1NT7UVhgNzbR6+1ZA=
+			k0Qko96fFlE6kNWMXUGUZbg7UDWh5PYoXlVjPsqGHV8=
 			</data>
 		</dict>
 		<key>Headers/TalsecRuntime_iOS.h</key>
@@ -214,84 +218,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O0gszGbJQU3KaFQU4B3Y6yd52gOfY2jF+D4eghmncGw=
+			HEZy0TIHTtiYVL8/LFqUhNSPS0hdER3U19rtQEQt2Ro=
 			</data>
 		</dict>
 		<key>Modules/TalsecRuntime.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EkTqUG1poZegK/C3yxffSjSmK0yuilFw1SsbvzAM0sg=
+			bZxkYxqJMWlyu/mua9IibVim6L/vIetspHblJQS5Sg0=
 			</data>
 		</dict>
 		<key>Modules/TalsecRuntime.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V1wVGDuc9o8uTa+OMhf1WwA1kc6r578wicRzc3zYfKo=
+			yTijGpTDFFIsGbz2tAe/3FEKt8uUEFB8tEy3zVfeCps=
 			</data>
 		</dict>
 		<key>Modules/TalsecRuntime.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O0gszGbJQU3KaFQU4B3Y6yd52gOfY2jF+D4eghmncGw=
+			HEZy0TIHTtiYVL8/LFqUhNSPS0hdER3U19rtQEQt2Ro=
 			</data>
 		</dict>
 		<key>Modules/TalsecRuntime.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EkTqUG1poZegK/C3yxffSjSmK0yuilFw1SsbvzAM0sg=
+			bZxkYxqJMWlyu/mua9IibVim6L/vIetspHblJQS5Sg0=
 			</data>
 		</dict>
 		<key>Modules/TalsecRuntime.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V1wVGDuc9o8uTa+OMhf1WwA1kc6r578wicRzc3zYfKo=
+			yTijGpTDFFIsGbz2tAe/3FEKt8uUEFB8tEy3zVfeCps=
 			</data>
 		</dict>
 		<key>Modules/TalsecRuntime.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wRrWsfuFtHCzDfpdTN9qYgWjibGEWlu1CX3FnuJ3+Dg=
+			5V6unsWBScq4bxL5K2iYJl6pogyueZlsBvmB70JW7oE=
 			</data>
 		</dict>
 		<key>Modules/TalsecRuntime.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vzpW4vEbkt+harPtGGrwLffYCBEZSDPlT5xtuKWrlyU=
+			j/0a4CtrxftkOgh8yI/0BRWrKFVW62z+tbb4Yj3ruzs=
 			</data>
 		</dict>
 		<key>Modules/TalsecRuntime.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c8rFGp6RMkOlijtjewWCq5/9yiFReoIcmRHr20LeAls=
+			d+qxaOhN1YSipcfL96ng/hM/uQnMop0S1/8RuLGBe2M=
 			</data>
 		</dict>
 		<key>Modules/TalsecRuntime.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wRrWsfuFtHCzDfpdTN9qYgWjibGEWlu1CX3FnuJ3+Dg=
+			5V6unsWBScq4bxL5K2iYJl6pogyueZlsBvmB70JW7oE=
 			</data>
 		</dict>
 		<key>Modules/TalsecRuntime.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vzpW4vEbkt+harPtGGrwLffYCBEZSDPlT5xtuKWrlyU=
+			j/0a4CtrxftkOgh8yI/0BRWrKFVW62z+tbb4Yj3ruzs=
 			</data>
 		</dict>
 		<key>Modules/TalsecRuntime.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c8rFGp6RMkOlijtjewWCq5/9yiFReoIcmRHr20LeAls=
+			d+qxaOhN1YSipcfL96ng/hM/uQnMop0S1/8RuLGBe2M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -299,6 +303,13 @@
 			<key>hash2</key>
 			<data>
 			JSrkNlC9V1mIuTSr1iEkzQRxDs+QC1sIZQ4DfKsT2rQ=
+			</data>
+		</dict>
+		<key>cacert.pem</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vLfVqvLidOaWhu333Zcfk7IOri/bD3xS4diodK4BgBg=
 			</data>
 		</dict>
 		<key>module.modulemap</key>
