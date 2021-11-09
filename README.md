@@ -3,6 +3,13 @@
 
 freeRASP for iOS is a part of security SDK for the app shielding and security monitoring. Learn more about provided features on the [freeRASP's main repository](https://github.com/talsec/Free-RASP-Community) first.
 
+<table>
+<tbody>
+<td>⚠️ Attention ⚠️ Update to the latest (<strong>2.0.0</strong>) version. Previous versions contain a bug that impacts logged data.<br>
+</td>
+</tbody>
+</table>
+
 # Usage
 
 ## Step 1: Prepare Talsec library
