@@ -23,6 +23,7 @@ class SecurityService {
         case .simulator:                securityRisks.insert(.simulator)
         case .missingSecureEnclave:     securityRisks.insert(.secureEnclave)
         case .deviceChange:             securityRisks.insert(.deviceBinding)
+        case .deviceID:                 break
         @unknown default:               break
         }
     }

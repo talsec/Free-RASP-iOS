@@ -205,7 +205,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-void __VQHVdgAgJKaPeXVZXtleiGg(void);
+void __kMtArIQsONatroOiIbLGOuM(void);
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
 #endif
