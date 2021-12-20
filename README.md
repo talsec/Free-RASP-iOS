@@ -3,13 +3,6 @@
 
 freeRASP for iOS is a part of security SDK for the app shielding and security monitoring. Learn more about provided features on the [freeRASP's main repository](https://github.com/talsec/Free-RASP-Community) first.
 
-<table>
-<tbody>
-<td>⚠️ Attention ⚠️ Update to the latest (<strong>2.0.0</strong>) version. Previous versions contain a bug that impacts logged data.<br>
-</td>
-</tbody>
-</table>
-
 # Usage
 
 ## Step 1: Prepare Talsec library
@@ -80,6 +73,18 @@ public enum SecurityThreat: String, Codable, CaseIterable, Equatable {
 	case deviceChange
 }
 ```
+
+## Step 4: App Store User Data policy
+App Store App Privacy Details indicates that applications should inform users of the data that they are collecting and processing, and therefore rejects the apps which do not comply with the policy. To comply with the policy, in the App Privacy section, it is important to check following:
+* Identifiers -> Device ID -> App Functionality, Yes for linking to the user
+	* It is https://developer.apple.com/documentation/uikit/uidevice/1620059-identifierforvendor
+* Diagnostics -> Performance Data -> App Functionality, Other Purposes, No for linking to the user
+* Diagnostics -> Other diagnostics data -> App Functionality, Other Purposes, No for linking to the user
+* Other data -> App Functionality, Yes for linking to the user
+	* Security diagnostics data (such as jailbreak)
+	* It also includes (along with Identifiers part) externalId in case you use it
+
+It is also important to include the information in the privacy policy of the application, see the [Processed data and GDPR compliancy](https://github.com/talsec/Free-RASP-Community#processed-data-and-gdpr-compliancy).
 
 # Talsec Application on AppStore
 
