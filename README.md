@@ -75,20 +75,15 @@ public enum SecurityThreat: String, Codable, CaseIterable, Equatable {
 ```
 
 ## Step 4: App Store User Data policy
-App Store App Privacy Details indicates that applications should inform users of the data that they are collecting and processing, and therefore rejects the apps which do not comply with the policy. To comply with the policy, in the App Privacy section, it is important to check following:
-* Identifiers -> Device ID -> App Functionality, Yes for linking to the user
-	* It is https://developer.apple.com/documentation/uikit/uidevice/1620059-identifierforvendor
+App Store App Privacy Details indicate that applications should inform users of the data that they are collecting and processing, and therefore Apple rejects the apps which do not comply with the policy. To comply with the policy, in the App Privacy section, it is important to check the following:
+* Identifiers -> Device ID -> App Functionality
+	* It is anonymous device identifier for App vendor as per:  https://developer.apple.com/documentation/uikit/uidevice/1620059-identifierforvendor
+	* Talsec Security SDK can not link the device identifier to the user
 * Diagnostics -> Performance Data -> App Functionality, Other Purposes, No for linking to the user
 * Diagnostics -> Other diagnostics data -> App Functionality, Other Purposes, No for linking to the user
-* Other data -> App Functionality, Yes for linking to the user
+* Other data -> App Functionality, No for linking to the user
 	* Security diagnostics data (such as jailbreak)
-	* It also includes (along with Identifiers part) externalId in case you use it
 
-It is also important to include the information in the privacy policy of the application, see the [Processed data and GDPR compliancy](https://github.com/talsec/Free-RASP-Community#processed-data-and-gdpr-compliancy).
+It is also important to include the information in the privacy policy of the application, see the [Data Collection, Processing, and GDPR compliance](https://github.com/talsec/Free-RASP-Community#data-collection-processing-and-gdpr-compliance).
 
-# Talsec Application on AppStore
-
-Application's official [website](https://talsec.app).
-Application's link to [AppStore](https://apps.apple.com/app/talsec-mobile-security/id1536892517)
-
-You can open issue if you get stuck anywhere in the guide or show your appreciation by starring this repository ⭐!
+And you're done 🎉! You can open issue if you get stuck anywhere in the guide or show your appreciation by starring this repository ⭐!
