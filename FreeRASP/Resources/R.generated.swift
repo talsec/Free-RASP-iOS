@@ -471,7 +471,7 @@ struct R: Rswift.Validatable {
       fileprivate init() {}
     }
 
-    /// This `R.string.localizable` struct is generated, and contains static references to 56 localization keys.
+    /// This `R.string.localizable` struct is generated, and contains static references to 60 localization keys.
     struct localizable {
       /// en translation: A device protected by a passcode significantly increases your security.
       ///
@@ -481,6 +481,10 @@ struct R: Rswift.Validatable {
       ///
       /// Locales: en, cs, sk
       static let protectionStatusTypeSimulatorDescription = Rswift.StringResource(key: "protectionStatus.type.simulator.description", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
+      /// en translation: An application not distributed via official store might be tampered and insecure.
+      ///
+      /// Locales: en, cs, sk
+      static let protectionStatusTypeUnofficialStoreDescription = Rswift.StringResource(key: "protectionStatus.type.unofficialStore.description", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
       /// en translation: An isolated system for secure data storage is indispensable against advanced attackers.
       ///
       /// Locales: en, cs, sk
@@ -649,6 +653,14 @@ struct R: Rswift.Validatable {
       ///
       /// Locales: en, cs, sk
       static let protectionStatusTypeSecureEnclaveNok = Rswift.StringResource(key: "protectionStatus.type.secureEnclave.nok", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
+      /// en translation: The app has been installed using an official store.
+      ///
+      /// Locales: en, cs, sk
+      static let protectionStatusTypeUnofficialStoreOk = Rswift.StringResource(key: "protectionStatus.type.unofficialStore.ok", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
+      /// en translation: The app has been installed using an unofficial store.
+      ///
+      /// Locales: en, cs, sk
+      static let protectionStatusTypeUnofficialStoreNok = Rswift.StringResource(key: "protectionStatus.type.unofficialStore.nok", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
       /// en translation: The application has been transferred.
       ///
       /// Locales: en, cs, sk
@@ -681,6 +693,10 @@ struct R: Rswift.Validatable {
       ///
       /// Locales: en, cs, sk
       static let protectionStatusTypeBiometricsDescription = Rswift.StringResource(key: "protectionStatus.type.biometrics.description", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
+      /// en translation: Unofficial Store
+      ///
+      /// Locales: en, cs, sk
+      static let protectionStatusTypeUnofficialStoreTitle = Rswift.StringResource(key: "protectionStatus.type.unofficialStore.title", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
       /// en translation: Verified application signature.
       ///
       /// Locales: en, cs, sk
@@ -726,6 +742,21 @@ struct R: Rswift.Validatable {
         }
 
         return NSLocalizedString("protectionStatus.type.simulator.description", bundle: bundle, comment: "")
+      }
+
+      /// en translation: An application not distributed via official store might be tampered and insecure.
+      ///
+      /// Locales: en, cs, sk
+      static func protectionStatusTypeUnofficialStoreDescription(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("protectionStatus.type.unofficialStore.description", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "protectionStatus.type.unofficialStore.description"
+        }
+
+        return NSLocalizedString("protectionStatus.type.unofficialStore.description", bundle: bundle, comment: "")
       }
 
       /// en translation: An isolated system for secure data storage is indispensable against advanced attackers.
@@ -1358,6 +1389,36 @@ struct R: Rswift.Validatable {
         return NSLocalizedString("protectionStatus.type.secureEnclave.nok", bundle: bundle, comment: "")
       }
 
+      /// en translation: The app has been installed using an official store.
+      ///
+      /// Locales: en, cs, sk
+      static func protectionStatusTypeUnofficialStoreOk(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("protectionStatus.type.unofficialStore.ok", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "protectionStatus.type.unofficialStore.ok"
+        }
+
+        return NSLocalizedString("protectionStatus.type.unofficialStore.ok", bundle: bundle, comment: "")
+      }
+
+      /// en translation: The app has been installed using an unofficial store.
+      ///
+      /// Locales: en, cs, sk
+      static func protectionStatusTypeUnofficialStoreNok(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("protectionStatus.type.unofficialStore.nok", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "protectionStatus.type.unofficialStore.nok"
+        }
+
+        return NSLocalizedString("protectionStatus.type.unofficialStore.nok", bundle: bundle, comment: "")
+      }
+
       /// en translation: The application has been transferred.
       ///
       /// Locales: en, cs, sk
@@ -1476,6 +1537,21 @@ struct R: Rswift.Validatable {
         }
 
         return NSLocalizedString("protectionStatus.type.biometrics.description", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Unofficial Store
+      ///
+      /// Locales: en, cs, sk
+      static func protectionStatusTypeUnofficialStoreTitle(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("protectionStatus.type.unofficialStore.title", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "protectionStatus.type.unofficialStore.title"
+        }
+
+        return NSLocalizedString("protectionStatus.type.unofficialStore.title", bundle: bundle, comment: "")
       }
 
       /// en translation: Verified application signature.

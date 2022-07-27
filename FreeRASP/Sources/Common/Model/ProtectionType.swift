@@ -17,6 +17,7 @@ enum ProtectionType {
     case simulator
     case runtimeManipulation
     case deviceBinding
+    case unofficialStore
 
     var scoreDownValue: Int {
         switch self {
@@ -29,6 +30,7 @@ enum ProtectionType {
         case .simulator:            return 47
         case .runtimeManipulation:  return 53
         case .deviceBinding:        return 0
+        case .unofficialStore:      return 21
         }
     }
 
@@ -43,6 +45,7 @@ enum ProtectionType {
         case .simulator:            return L.protectionStatusTypeSimulatorTitle()
         case .runtimeManipulation:  return L.protectionStatusTypeRuntimeManipulationTitle()
         case .deviceBinding:        return L.protectionStatusTypeDeviceBindingTitle()
+        case .unofficialStore:      return L.protectionStatusTypeUnofficialStoreTitle()
         }
     }
 
@@ -57,6 +60,7 @@ enum ProtectionType {
         case .simulator:            return L.protectionStatusTypeSimulatorDescription()
         case .runtimeManipulation:  return L.protectionStatusTypeRuntimeManipulationDescription()
         case .deviceBinding:        return L.protectionStatusTypeDeviceBindingDescription()
+        case .unofficialStore:      return L.protectionStatusTypeUnofficialStoreDescription()
         }
     }
 
@@ -71,6 +75,7 @@ enum ProtectionType {
         case .simulator:            return L.protectionStatusTypeSimulatorOk()
         case .runtimeManipulation:  return L.protectionStatusTypeRuntimeManipulationOk()
         case .deviceBinding:        return L.protectionStatusTypeDeviceBindingOk()
+        case .unofficialStore:      return L.protectionStatusTypeUnofficialStoreOk()
         }
     }
 
@@ -85,6 +90,7 @@ enum ProtectionType {
         case .simulator:            return L.protectionStatusTypeSimulatorNok()
         case .runtimeManipulation:  return L.protectionStatusTypeRuntimeManipulationNok()
         case .deviceBinding:        return L.protectionStatusTypeDeviceBindingNok()
+        case .unofficialStore:      return L.protectionStatusTypeUnofficialStoreNok()
         }
     }
 }

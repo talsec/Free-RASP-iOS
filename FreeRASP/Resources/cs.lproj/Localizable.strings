@@ -58,3 +58,7 @@
 "protectionStatus.type.simulator.nok" = "Nalezen simulátor.";
 "protectionStatus.type.simulator.ok" = "Nenalezen simulátor.";
 "protectionStatus.type.simulator.title" = "Simulátor";
+"protectionStatus.type.unofficialStore.title" = "Neoficiální zdroj";
+"protectionStatus.type.unofficialStore.description" = "Aplikace, která není distribuována prostřednictvím oficiálního obchodu, může být zfalšovaná a nezabezpečená.";
+"protectionStatus.type.unofficialStore.ok" = "Aplikace byla nainstalována pomocí oficiálního zdroje.";
+"protectionStatus.type.unofficialStore.nok" = "Aplikace byla nainstalována pomocí neoficiálního zdroje.";

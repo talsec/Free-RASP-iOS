@@ -36,6 +36,7 @@ public enum SecurityThreat : Swift.String, Swift.Codable, Swift.CaseIterable, Sw
   case missingSecureEnclave
   case deviceChange
   case deviceID
+  case unofficialStore
   public init?(rawValue: Swift.String)
   public typealias AllCases = [TalsecRuntime.SecurityThreat]
   public typealias RawValue = Swift.String

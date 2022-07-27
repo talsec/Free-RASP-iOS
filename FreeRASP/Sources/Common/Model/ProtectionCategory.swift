@@ -32,7 +32,8 @@ enum ProtectionCategory: CaseIterable {
                 .signature,
                 .debugger,
                 .simulator,
-                .runtimeManipulation
+                .runtimeManipulation,
+                .unofficialStore
             ]
         }
     }

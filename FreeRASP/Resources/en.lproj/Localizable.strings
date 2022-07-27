@@ -58,3 +58,7 @@
 "protectionStatus.type.simulator.nok" = "Simulator found.";
 "protectionStatus.type.simulator.ok" = "No simulator found.";
 "protectionStatus.type.simulator.title" = "Simulator";
+"protectionStatus.type.unofficialStore.title" = "Unofficial Store";
+"protectionStatus.type.unofficialStore.description" = "An application not distributed via official store might be tampered and insecure.";
+"protectionStatus.type.unofficialStore.ok" = "The app has been installed using an official store.";
+"protectionStatus.type.unofficialStore.nok" = "The app has been installed using an unofficial store.";
