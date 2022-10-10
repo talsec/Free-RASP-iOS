@@ -43,7 +43,7 @@ fi
 - In the **General > Frameworks, Libraries, and Embedded Content** choose **Embed & Sign**
 
 ### Debug vs Release version
-Debug version is used during the development of the application. It separates development and production data and disables some checks which won't be triggered during the development process:
+The Dev version is used to not complicate the development process of the application, e.g. if you would implement killing of the application on the debugger callback. It disables some checks which won't be triggered during the development process:
 * Debugging
 * Tampering
 * Simulator
@@ -70,7 +70,7 @@ extension SecurityThreatCenter: SecurityThreatHandler {
     }
 }
 ```
-Use the code above for handling these types of threats:
+If you decide to kill the application from the callback, make sure that you use an appropriate way of killing it. Use the code above for handling these types of threats:
 ```swift
 public enum SecurityThreat: String, Codable, CaseIterable, Equatable {
     /// app integrity / repackaging / tampering
