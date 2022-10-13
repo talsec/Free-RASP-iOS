@@ -25,7 +25,7 @@ The installation guide will lead you through the following steps:
 ## Step 1: Prepare Talsec library
 
 - Copy folder `Talsec` into your Application folder
-- D&D Talsec folder to your `.xcworkspace`
+- Drag & drop Talsec folder to your `.xcworkspace`
 - Go to your **Target > Build Phases > New Run Script Phase**
 - Use the following code to use an appropriate Talsec for a release or debug build:
 !!! **Do clean build before change Debug <-> Release version** !!!
