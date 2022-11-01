@@ -49,6 +49,8 @@ The Dev version is used to not complicate the development process of the applica
 * Simulator
 * Unofficial store
 
+Note: In case you are using Carthage, the zipped version of frameworks are included in the Releases.
+
 ## Step 2: Setup the Configuration for your App
 
 - In the `AppDelegate` import `TalsecRuntime` and add the following code (e.g., in the `didFinishLaunchingWithOptions` method.:
