@@ -17,8 +17,8 @@ To learn more about freeRASP features, visit our main GitHub [repository](https:
 # Usage
 The installation guide will lead you through the following steps:
 * [Prepare Talsec library](#step-1-prepare-talsec-library)
-	+ [Debug vs Release version](#debug-vs-release-version)
 * [Setup the configuration](#step-2-setup-the-configuration-for-your-app)
+	+ [Debug vs Release version](#debug-vs-release-version)
 * [Handle detected threats](#step-3-handle-detected-threats)
 * [App Store User Data Policy](#step-4-app-store-user-data-policy)
 
@@ -26,28 +26,8 @@ The installation guide will lead you through the following steps:
 
 - Copy folder `Talsec` into your Application folder
 - Drag & drop Talsec folder to your `.xcworkspace`
-- Go to your **Target > Build Phases > New Run Script Phase**
-- Use the following code to use an appropriate Talsec for a release or debug build:
-!!! **Do clean build before change Debug <-> Release version** !!!
-```sh
-cd "${SRCROOT}/Talsec"
-if [ "${CONFIGURATION}" = "Release" ]; then
-    rm -rf ./TalsecRuntime.xcframework
-    ln -s ./Release/TalsecRuntime.xcframework/ TalsecRuntime.xcframework
-else
-    rm -rf ./TalsecRuntime.xcframework
-    ln -s ./Debug/TalsecRuntime.xcframework/ TalsecRuntime.xcframework
-fi
-```
 - Add **TalsecRuntime** framework to **Target > Build Phases > Link Binary With Libraries**
 - In the **General > Frameworks, Libraries, and Embedded Content** choose **Embed & Sign**
-
-### Debug vs Release version
-The Dev version is used to not complicate the development process of the application, e.g. if you would implement killing of the application on the debugger callback. It disables some checks which won't be triggered during the development process:
-* Debugging
-* Tampering
-* Simulator
-* Unofficial store
 
 Note: In case you are using Carthage, the zipped version of frameworks are included in the Releases.
 
@@ -55,11 +35,21 @@ Note: In case you are using Carthage, the zipped version of frameworks are inclu
 
 - In the `AppDelegate` import `TalsecRuntime` and add the following code (e.g., in the `didFinishLaunchingWithOptions` method.:
 ```swift
-let config = TalsecConfig(appBundleIds: ["YOUR_APP_BUNDLE_ID"], appTeamId: "YOUR TEAM ID", watcherMailAddress: "WATCHER EMAIL ADDRESS")
+let config = TalsecConfig(appBundleIds: ["YOUR_APP_BUNDLE_ID"], appTeamId: "YOUR TEAM ID", watcherMailAddress: "WATCHER EMAIL ADDRESS", isProd: true)
 
 Talsec.start(config: config)
 ```
 The value of watcherMail is automatically used as the target address for your security reports. Mail has a strict form `'name@domain.com'`.
+
+
+### Debug vs Release version
+The Debug version is used to not complicate the development process of the application, e.g. if you would implement killing of the application on the debugger callback. It disables some checks which won't be triggered during the development process:
+* Debugging
+* Tampering
+* Simulator
+* Unofficial store
+
+If you want to use the Debug version, set the **isProd** parameter to **false**. Make sure, that you have the Release version in the production (i.e. **isProd** set to **true**)!
 
 ## Step 3: Handle detected threats
 Anywhere in your project, add the following code as an extension:
