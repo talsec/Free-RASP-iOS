@@ -513,7 +513,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37A122A126BAC5DA00D0BB68 /* Build configuration list for PBXNativeTarget "FreeRASPDemo" */;
 			buildPhases = (
-				37A1238026BD25AC00D0BB68 /* Use Proper Talsec Version */,
 				37A122CD26BAD0F000D0BB68 /* Run Swiftlint */,
 				37A122CE26BAD11D00D0BB68 /* Run R.swift generate */,
 				37A1228926BAC5D900D0BB68 /* Sources */,
@@ -629,24 +628,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$SRCROOT/rswift\" generate \"$SRCROOT/FreeRASP/Resources/R.generated.swift\" --generators image,string,nib,font,color,file\n";
-		};
-		37A1238026BD25AC00D0BB68 /* Use Proper Talsec Version */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Use Proper Talsec Version";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "cd \"${SRCROOT}/Talsec\"\nif [ \"${CONFIGURATION}\" == \"Release\" ]; then\n  rm -rf ./TalsecRuntime.xcframework\n  ln -s ./Release/TalsecRuntime.xcframework/ TalsecRuntime.xcframework\nelse\n  rm -rf ./TalsecRuntime.xcframework\n  ln -s ./Debug/TalsecRuntime.xcframework/ TalsecRuntime.xcframework\nfi\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
