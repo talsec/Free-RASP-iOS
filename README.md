@@ -22,7 +22,6 @@ To learn more about freeRASP features, visit our main GitHub [repository](https:
   - [Step 2: Setup the Configuration for your App](#step-2-setup-the-configuration-for-your-app)
     - [Debug vs Release version](#debug-vs-release-version)
   - [Step 3: Handle detected threats](#step-3-handle-detected-threats)
-    - [(Optional) Device state information](#optional-device-state-information)
   - [Step 4: App Store User Data policy](#step-4-app-store-user-data-policy)
 - [About Us](#about-us)
 - [License](#license)
