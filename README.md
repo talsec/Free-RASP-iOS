@@ -15,13 +15,20 @@ iOS version detects security issues such as:
 
 To learn more about freeRASP features, visit our main GitHub [repository](https://github.com/talsec/Free-RASP-Community).
 
+# :notebook_with_decorative_cover: Table of contents
+
+- [Usage](#usage)
+  - [Step 1: Prepare Talsec library](#step-1-prepare-talsec-library)
+  - [Step 2: Setup the Configuration for your App](#step-2-setup-the-configuration-for-your-app)
+    - [Debug vs Release version](#debug-vs-release-version)
+  - [Step 3: Handle detected threats](#step-3-handle-detected-threats)
+    - [(Optional) Device state information](#optional-device-state-information)
+  - [Step 4: App Store User Data policy](#step-4-app-store-user-data-policy)
+- [About Us](#about-us)
+- [License](#license)
+
 # Usage
-The installation guide will lead you through the following steps:
-* [Prepare Talsec library](#step-1-prepare-talsec-library)
-* [Setup the configuration](#step-2-setup-the-configuration-for-your-app)
-	+ [Debug vs Release version](#debug-vs-release-version)
-* [Handle detected threats](#step-3-handle-detected-threats)
-* [App Store User Data Policy](#step-4-app-store-user-data-policy)
+The installation guide will lead you through the whole implementation, such as adding the SDK to the dependencies, configuring it for your app, handling detected threats. It will also instruct you about required user data policies.
 
 ## Step 1: Prepare Talsec library
 
@@ -94,7 +101,7 @@ public enum SecurityThreat: String, Codable, CaseIterable, Equatable {
 To learn more about these checks, visit our [wiki](https://github.com/talsec/Free-RASP-Community/wiki/Threat-detection) page that provides an explanation for them.
 
 ## Step 4: App Store User Data policy
-See the generic info about freeRASP data collection [here](https://github.com/talsec/Free-RASP-Community/tree/master#data-collection-processing-and-gdpr-compliance)
+See the generic info about freeRASP data collection [here](https://github.com/talsec/Free-RASP-Community/tree/master#data-collection-processing-and-gdpr-compliance).
 
 App Store App Privacy Details indicate that applications should inform users of the data that they are collecting and processing, and therefore Apple rejects the apps which do not comply with the policy. To comply with the policy, in the App Privacy section, it is important to check the following:
 * Identifiers -> Device ID -> App Functionality
