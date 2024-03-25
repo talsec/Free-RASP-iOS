@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -142,7 +142,7 @@
 		37A1237B26BD253000D0BB68 /* SecurityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityService.swift; sourceTree = "<group>"; };
 		37A1238226BD261800D0BB68 /* ProtectionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtectionType.swift; sourceTree = "<group>"; };
 		37A1238426BD39C700D0BB68 /* ProtectionStatusViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProtectionStatusViewController.xib; sourceTree = "<group>"; };
-		37B7E2E5270C39ED004B439E /* TalsecRuntime.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TalsecRuntime.xcframework; path = Talsec/TalsecRuntime.xcframework; sourceTree = "<group>"; };
+		37B7E2E5270C39ED004B439E /* TalsecRuntime.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:ASQC376HCN:AHEAD iTec, s.r.o."; lastKnownFileType = wrapper.xcframework; name = TalsecRuntime.xcframework; path = Talsec/TalsecRuntime.xcframework; sourceTree = "<group>"; };
 		37FD8E4A26E8DF4F00B0D674 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		37FD8E4B26E8DF4F00B0D674 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		37FD8E5826EA0FC700B0D674 /* CommonControllersAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonControllersAssembly.swift; sourceTree = "<group>"; };
