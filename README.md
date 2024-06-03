@@ -101,8 +101,8 @@ public enum SecurityThreat: String, Codable, CaseIterable, Equatable {
     case deviceID
     /// unofficial store or Xcode build
     case unofficialStore
-	/// Detected system VPN
-	case systemVPN
+    /// Detected system VPN
+    case systemVPN
 }
 ```
 
