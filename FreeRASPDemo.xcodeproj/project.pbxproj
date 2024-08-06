@@ -59,8 +59,6 @@
 		37A1237C26BD253000D0BB68 /* SecurityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A1237B26BD253000D0BB68 /* SecurityService.swift */; };
 		37A1238326BD261800D0BB68 /* ProtectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A1238226BD261800D0BB68 /* ProtectionType.swift */; };
 		37A1238526BD39C700D0BB68 /* ProtectionStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37A1238426BD39C700D0BB68 /* ProtectionStatusViewController.xib */; };
-		37B7E2E6270C39ED004B439E /* TalsecRuntime.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B7E2E5270C39ED004B439E /* TalsecRuntime.xcframework */; };
-		37B7E2E7270C39ED004B439E /* TalsecRuntime.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 37B7E2E5270C39ED004B439E /* TalsecRuntime.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		37FD8E5926EA0FC700B0D674 /* CommonControllersAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FD8E5826EA0FC700B0D674 /* CommonControllersAssembly.swift */; };
 		37FD8E6326EA109200B0D674 /* CommonServicesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FD8E6226EA109200B0D674 /* CommonServicesAssembly.swift */; };
 		37FD8E7126EA146A00B0D674 /* LogAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FD8E6726EA146A00B0D674 /* LogAssembly.swift */; };
@@ -72,16 +70,18 @@
 		37FD8E7826EA146A00B0D674 /* ExternalLogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FD8E6E26EA146A00B0D674 /* ExternalLogService.swift */; };
 		37FD8E7A26EA146A00B0D674 /* LogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FD8E7026EA146A00B0D674 /* LogService.swift */; };
 		37FD8E7C26EA15D200B0D674 /* BasePropertyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FD8E7B26EA15D200B0D674 /* BasePropertyController.swift */; };
+		A45845CF2C62453600D264B4 /* TalsecRuntime.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B7E2E5270C39ED004B439E /* TalsecRuntime.xcframework */; };
+		A45845D02C62453600D264B4 /* TalsecRuntime.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 37B7E2E5270C39ED004B439E /* TalsecRuntime.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		37B7E2E8270C39ED004B439E /* Embed Frameworks */ = {
+		A45845D12C62453600D264B4 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				37B7E2E7270C39ED004B439E /* TalsecRuntime.xcframework in Embed Frameworks */,
+				A45845D02C62453600D264B4 /* TalsecRuntime.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,9 +163,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45845CF2C62453600D264B4 /* TalsecRuntime.xcframework in Frameworks */,
 				37A122CA26BAD06D00D0BB68 /* Rswift in Frameworks */,
 				37A122A826BAC9DB00D0BB68 /* Swinject in Frameworks */,
-				37B7E2E6270C39ED004B439E /* TalsecRuntime.xcframework in Frameworks */,
 				37A122AB26BAC9F500D0BB68 /* SwinjectAutoregistration in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,7 +518,7 @@
 				37A1228926BAC5D900D0BB68 /* Sources */,
 				37A1228A26BAC5D900D0BB68 /* Frameworks */,
 				37A1228B26BAC5D900D0BB68 /* Resources */,
-				37B7E2E8270C39ED004B439E /* Embed Frameworks */,
+				A45845D12C62453600D264B4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
