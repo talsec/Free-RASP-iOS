@@ -56,12 +56,6 @@ For integrating freeRASP on the iOS platform, be sure to follow all the steps in
 
 Be sure to bookmark it and stay informed! :books: :sparkles:.
 
-## :scroll: Reference to Legacy Documentation
-
-If you have any suggestions for improvement or notice anything that could be clarified in the new GitBook documentation, please open an issue. Your feedback helps us maintain high-quality resources for all users. 
-
-For information on older integration methods, you can refer to the [freeRASP wiki](https://github.com/talsec/Free-RASP-iOS/wiki), which includes comprehensive legacy details and guidance. Additionally, the old integration can be found when you checkout to a specific tag. Your input is invaluable in helping us improve our resources and provide even better support for your needs.
-
 # :rocket: What's New and Changelog
 Stay informed and make the most of freeRASP by checking out [What's New and Changelog](https://docs.talsec.app/freerasp/whats-new-and-changelog)! Here, you’ll discover the latest features, enhancements, and bug fixes we’ve implemented to improve your experience across all platforms, including Android, iOS, Flutter, React Native, Capacitor, and Cordova. 
 
