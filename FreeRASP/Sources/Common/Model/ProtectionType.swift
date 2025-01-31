@@ -18,6 +18,9 @@ enum ProtectionType {
     case runtimeManipulation
     case deviceBinding
     case unofficialStore
+    case systemVPN
+    case screenshot
+    case screenRecording
 
     var scoreDownValue: Int {
         switch self {
@@ -31,6 +34,9 @@ enum ProtectionType {
         case .runtimeManipulation:  return 53
         case .deviceBinding:        return 0
         case .unofficialStore:      return 21
+        case .systemVPN:            return 31
+        case .screenshot:           return 31
+        case .screenRecording:      return 31
         }
     }
 
@@ -46,6 +52,9 @@ enum ProtectionType {
         case .runtimeManipulation:  return L.protectionStatusTypeRuntimeManipulationTitle()
         case .deviceBinding:        return L.protectionStatusTypeDeviceBindingTitle()
         case .unofficialStore:      return L.protectionStatusTypeUnofficialStoreTitle()
+        case .systemVPN:            return L.protectionStatusTypeSystemVPNTitle()
+        case .screenshot:           return L.protectionStatusTypeScreenshotTitle()
+        case .screenRecording:      return L.protectionStatusTypeScreenRecordingTitle()
         }
     }
 
@@ -61,6 +70,9 @@ enum ProtectionType {
         case .runtimeManipulation:  return L.protectionStatusTypeRuntimeManipulationDescription()
         case .deviceBinding:        return L.protectionStatusTypeDeviceBindingDescription()
         case .unofficialStore:      return L.protectionStatusTypeUnofficialStoreDescription()
+        case .systemVPN:            return L.protectionStatusTypeSystemVPNDescription()
+        case .screenshot:           return L.protectionStatusTypeScreenshotDescription()
+        case .screenRecording:      return L.protectionStatusTypeScreenRecordingDescription()
         }
     }
 
@@ -76,6 +88,9 @@ enum ProtectionType {
         case .runtimeManipulation:  return L.protectionStatusTypeRuntimeManipulationOk()
         case .deviceBinding:        return L.protectionStatusTypeDeviceBindingOk()
         case .unofficialStore:      return L.protectionStatusTypeUnofficialStoreOk()
+        case .systemVPN:            return L.protectionStatusTypeSystemVPNOk()
+        case .screenshot:           return L.protectionStatusTypeScreenshotOk()
+        case .screenRecording:      return L.protectionStatusTypeScreenRecordingOk()
         }
     }
 
@@ -91,6 +106,9 @@ enum ProtectionType {
         case .runtimeManipulation:  return L.protectionStatusTypeRuntimeManipulationNok()
         case .deviceBinding:        return L.protectionStatusTypeDeviceBindingNok()
         case .unofficialStore:      return L.protectionStatusTypeUnofficialStoreNok()
+        case .systemVPN:            return L.protectionStatusTypeSystemVPNNok()
+        case .screenshot:           return L.protectionStatusTypeScreenshotNok()
+        case .screenRecording:      return L.protectionStatusTypeScreenRecordingNok()
         }
     }
 }

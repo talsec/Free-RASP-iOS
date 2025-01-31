@@ -25,7 +25,8 @@ enum ProtectionCategory: CaseIterable {
                 .passcode,
                 .passcodeChange,
                 .secureEnclave,
-                .jailbreak
+                .jailbreak,
+                .systemVPN
             ]
         case .inDepthAnalysis:
             return [
@@ -33,7 +34,9 @@ enum ProtectionCategory: CaseIterable {
                 .debugger,
                 .simulator,
                 .runtimeManipulation,
-                .unofficialStore
+                .unofficialStore,
+                .screenshot,
+                .screenRecording
             ]
         }
     }
