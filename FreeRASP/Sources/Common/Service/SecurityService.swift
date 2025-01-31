@@ -24,6 +24,9 @@ class SecurityService {
         case .missingSecureEnclave:     securityRisks.insert(.secureEnclave)
         case .deviceChange:             securityRisks.insert(.deviceBinding)
         case .unofficialStore:          securityRisks.insert(.unofficialStore)
+        case .systemVPN:                securityRisks.insert(.systemVPN)
+        case .screenshot:               securityRisks.insert(.screenshot)
+        case .screenRecording:          securityRisks.insert(.screenRecording)
         case .deviceID:                 break
         @unknown default:               break
         }

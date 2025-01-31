@@ -62,3 +62,15 @@
 "protectionStatus.type.unofficialStore.description" = "Aplikace, která není distribuována prostřednictvím oficiálního obchodu, může být zfalšovaná a nezabezpečená.";
 "protectionStatus.type.unofficialStore.ok" = "Aplikace byla nainstalována pomocí oficiálního zdroje.";
 "protectionStatus.type.unofficialStore.nok" = "Aplikace byla nainstalována pomocí neoficiálního zdroje.";
+"protectionStatus.type.systemVPN.title" = "Služba VPN";
+"protectionStatus.type.systemVPN.description" = "Běžící služba VPN na mobilních zařízeních je klíčová pro aplikace citlivé na bezpečnost, protože může signalizovat potenciální rizika související s ochranou soukromí a bezpečností.";
+"protectionStatus.type.systemVPN.ok" = "Služba VPN je neběží.";
+"protectionStatus.type.systemVPN.nok" = "Služba VPN je běží.";
+"protectionStatus.type.screenshot.title" = "Snímek obrazovky";
+"protectionStatus.type.screenshot.description" = "Snímky obrazovky mohou být zneužity škodlivými aktéry k zachycení citlivých informací zobrazených v aplikaci, jako jsou přihlašovací údaje nebo platební údaje.";
+"protectionStatus.type.screenshot.ok" = "Snímek obrazovky aplikace nebyl detekován.";
+"protectionStatus.type.screenshot.nok" = "Snímek obrazovky aplikace byl detekován.";
+"protectionStatus.type.screenRecording.title" = "Záznam obrazovky";
+"protectionStatus.type.screenRecording.description" = "Záznam obrazovky může být zneužit škodlivými aktéry k zachycení citlivých uživatelských interakcí nebo postupů v aplikaci.";
+"protectionStatus.type.screenRecording.ok" = "Záznam obrazovky aplikace nebyl detekován.";
+"protectionStatus.type.screenRecording.nok" = "Záznam obrazovky aplikace byl detekován.";

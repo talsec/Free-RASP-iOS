@@ -62,3 +62,15 @@
 "protectionStatus.type.unofficialStore.description" = "An application not distributed via official store might be tampered and insecure.";
 "protectionStatus.type.unofficialStore.ok" = "The app has been installed using an official store.";
 "protectionStatus.type.unofficialStore.nok" = "The app has been installed using an unofficial store.";
+"protectionStatus.type.systemVPN.title" = "System VPN";
+"protectionStatus.type.systemVPN.description" = "A running VPN service on mobile devices is critical for security-sensitive applications, as it can indicate potential privacy and security risks.";
+"protectionStatus.type.systemVPN.ok" = "The system VPN is disabled.";
+"protectionStatus.type.systemVPN.nok" = "The system VPN is enabled.";
+"protectionStatus.type.screenshot.title" = "Screenshot";
+"protectionStatus.type.screenshot.description" = "Screenshots can be used by malicious actors to capture sensitive information displayed in the app, such as login credentials or payment details.";
+"protectionStatus.type.screenshot.ok" = "A screenshot of the app has not been detected.";
+"protectionStatus.type.screenshot.nok" = "A screenshot of the app has been detected.";
+"protectionStatus.type.screenRecording.title" = "Screen Recording";
+"protectionStatus.type.screenRecording.description" = "Screen recording can be used by malicious actors to capture sensitive user interactions or application flows.";
+"protectionStatus.type.screenRecording.ok" = "A screen recording of the app has not been detected.";
+"protectionStatus.type.screenRecording.nok" = "A screen recording of the app has been detected.";

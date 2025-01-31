@@ -471,12 +471,32 @@ struct R: Rswift.Validatable {
       fileprivate init() {}
     }
 
-    /// This `R.string.localizable` struct is generated, and contains static references to 60 localization keys.
+    /// This `R.string.localizable` struct is generated, and contains static references to 72 localization keys.
     struct localizable {
       /// en translation: A device protected by a passcode significantly increases your security.
       ///
       /// Locales: en, cs, sk
       static let protectionStatusTypePasscodeDescription = Rswift.StringResource(key: "protectionStatus.type.passcode.description", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
+      /// en translation: A running VPN service on mobile devices is critical for security-sensitive applications, as it can indicate potential privacy and security risks.
+      ///
+      /// Locales: en, cs, sk
+      static let protectionStatusTypeSystemVPNDescription = Rswift.StringResource(key: "protectionStatus.type.systemVPN.description", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
+      /// en translation: A screen recording of the app has been detected.
+      ///
+      /// Locales: en, cs, sk
+      static let protectionStatusTypeScreenRecordingNok = Rswift.StringResource(key: "protectionStatus.type.screenRecording.nok", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
+      /// en translation: A screen recording of the app has not been detected.
+      ///
+      /// Locales: en, cs, sk
+      static let protectionStatusTypeScreenRecordingOk = Rswift.StringResource(key: "protectionStatus.type.screenRecording.ok", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
+      /// en translation: A screenshot of the app has been detected.
+      ///
+      /// Locales: en, cs, sk
+      static let protectionStatusTypeScreenshotNok = Rswift.StringResource(key: "protectionStatus.type.screenshot.nok", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
+      /// en translation: A screenshot of the app has not been detected.
+      ///
+      /// Locales: en, cs, sk
+      static let protectionStatusTypeScreenshotOk = Rswift.StringResource(key: "protectionStatus.type.screenshot.ok", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
       /// en translation: A simulator is a dangerous environment for running an application that uses sensitive data.
       ///
       /// Locales: en, cs, sk
@@ -633,6 +653,22 @@ struct R: Rswift.Validatable {
       ///
       /// Locales: en, cs, sk
       static let protectionStatusMeterRiskHighResultDescription = Rswift.StringResource(key: "protectionStatus.meter.risk.high.result.description", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
+      /// en translation: Screen Recording
+      ///
+      /// Locales: en, cs, sk
+      static let protectionStatusTypeScreenRecordingTitle = Rswift.StringResource(key: "protectionStatus.type.screenRecording.title", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
+      /// en translation: Screen recording can be used by malicious actors to capture sensitive user interactions or application flows.
+      ///
+      /// Locales: en, cs, sk
+      static let protectionStatusTypeScreenRecordingDescription = Rswift.StringResource(key: "protectionStatus.type.screenRecording.description", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
+      /// en translation: Screenshot
+      ///
+      /// Locales: en, cs, sk
+      static let protectionStatusTypeScreenshotTitle = Rswift.StringResource(key: "protectionStatus.type.screenshot.title", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
+      /// en translation: Screenshots can be used by malicious actors to capture sensitive information displayed in the app, such as login credentials or payment details.
+      ///
+      /// Locales: en, cs, sk
+      static let protectionStatusTypeScreenshotDescription = Rswift.StringResource(key: "protectionStatus.type.screenshot.description", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
       /// en translation: Secure Enclave
       ///
       /// Locales: en, cs, sk
@@ -649,6 +685,10 @@ struct R: Rswift.Validatable {
       ///
       /// Locales: en, cs, sk
       static let protectionStatusTypeSimulatorNok = Rswift.StringResource(key: "protectionStatus.type.simulator.nok", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
+      /// en translation: System VPN
+      ///
+      /// Locales: en, cs, sk
+      static let protectionStatusTypeSystemVPNTitle = Rswift.StringResource(key: "protectionStatus.type.systemVPN.title", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
       /// en translation: System for secure data storage is unavailable.
       ///
       /// Locales: en, cs, sk
@@ -677,6 +717,14 @@ struct R: Rswift.Validatable {
       ///
       /// Locales: en, cs, sk
       static let protectionStatusTypePasscodeChangeDescription = Rswift.StringResource(key: "protectionStatus.type.passcodeChange.description", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
+      /// en translation: The system VPN is disabled.
+      ///
+      /// Locales: en, cs, sk
+      static let protectionStatusTypeSystemVPNOk = Rswift.StringResource(key: "protectionStatus.type.systemVPN.ok", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
+      /// en translation: The system VPN is enabled.
+      ///
+      /// Locales: en, cs, sk
+      static let protectionStatusTypeSystemVPNNok = Rswift.StringResource(key: "protectionStatus.type.systemVPN.nok", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
       /// en translation: This primarily serves to protect against the transfer of an application to a fraudster’s device. It's also possible to recognize that an application has been automatically transferred to another device. If this threat is detected and it was not during the migration to a new phone, a compromise may have occurred.
       ///
       /// Locales: en, cs, sk
@@ -727,6 +775,81 @@ struct R: Rswift.Validatable {
         }
 
         return NSLocalizedString("protectionStatus.type.passcode.description", bundle: bundle, comment: "")
+      }
+
+      /// en translation: A running VPN service on mobile devices is critical for security-sensitive applications, as it can indicate potential privacy and security risks.
+      ///
+      /// Locales: en, cs, sk
+      static func protectionStatusTypeSystemVPNDescription(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("protectionStatus.type.systemVPN.description", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "protectionStatus.type.systemVPN.description"
+        }
+
+        return NSLocalizedString("protectionStatus.type.systemVPN.description", bundle: bundle, comment: "")
+      }
+
+      /// en translation: A screen recording of the app has been detected.
+      ///
+      /// Locales: en, cs, sk
+      static func protectionStatusTypeScreenRecordingNok(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("protectionStatus.type.screenRecording.nok", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "protectionStatus.type.screenRecording.nok"
+        }
+
+        return NSLocalizedString("protectionStatus.type.screenRecording.nok", bundle: bundle, comment: "")
+      }
+
+      /// en translation: A screen recording of the app has not been detected.
+      ///
+      /// Locales: en, cs, sk
+      static func protectionStatusTypeScreenRecordingOk(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("protectionStatus.type.screenRecording.ok", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "protectionStatus.type.screenRecording.ok"
+        }
+
+        return NSLocalizedString("protectionStatus.type.screenRecording.ok", bundle: bundle, comment: "")
+      }
+
+      /// en translation: A screenshot of the app has been detected.
+      ///
+      /// Locales: en, cs, sk
+      static func protectionStatusTypeScreenshotNok(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("protectionStatus.type.screenshot.nok", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "protectionStatus.type.screenshot.nok"
+        }
+
+        return NSLocalizedString("protectionStatus.type.screenshot.nok", bundle: bundle, comment: "")
+      }
+
+      /// en translation: A screenshot of the app has not been detected.
+      ///
+      /// Locales: en, cs, sk
+      static func protectionStatusTypeScreenshotOk(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("protectionStatus.type.screenshot.ok", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "protectionStatus.type.screenshot.ok"
+        }
+
+        return NSLocalizedString("protectionStatus.type.screenshot.ok", bundle: bundle, comment: "")
       }
 
       /// en translation: A simulator is a dangerous environment for running an application that uses sensitive data.
@@ -1314,6 +1437,66 @@ struct R: Rswift.Validatable {
         return NSLocalizedString("protectionStatus.meter.risk.high.result.description", bundle: bundle, comment: "")
       }
 
+      /// en translation: Screen Recording
+      ///
+      /// Locales: en, cs, sk
+      static func protectionStatusTypeScreenRecordingTitle(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("protectionStatus.type.screenRecording.title", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "protectionStatus.type.screenRecording.title"
+        }
+
+        return NSLocalizedString("protectionStatus.type.screenRecording.title", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Screen recording can be used by malicious actors to capture sensitive user interactions or application flows.
+      ///
+      /// Locales: en, cs, sk
+      static func protectionStatusTypeScreenRecordingDescription(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("protectionStatus.type.screenRecording.description", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "protectionStatus.type.screenRecording.description"
+        }
+
+        return NSLocalizedString("protectionStatus.type.screenRecording.description", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Screenshot
+      ///
+      /// Locales: en, cs, sk
+      static func protectionStatusTypeScreenshotTitle(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("protectionStatus.type.screenshot.title", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "protectionStatus.type.screenshot.title"
+        }
+
+        return NSLocalizedString("protectionStatus.type.screenshot.title", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Screenshots can be used by malicious actors to capture sensitive information displayed in the app, such as login credentials or payment details.
+      ///
+      /// Locales: en, cs, sk
+      static func protectionStatusTypeScreenshotDescription(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("protectionStatus.type.screenshot.description", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "protectionStatus.type.screenshot.description"
+        }
+
+        return NSLocalizedString("protectionStatus.type.screenshot.description", bundle: bundle, comment: "")
+      }
+
       /// en translation: Secure Enclave
       ///
       /// Locales: en, cs, sk
@@ -1372,6 +1555,21 @@ struct R: Rswift.Validatable {
         }
 
         return NSLocalizedString("protectionStatus.type.simulator.nok", bundle: bundle, comment: "")
+      }
+
+      /// en translation: System VPN
+      ///
+      /// Locales: en, cs, sk
+      static func protectionStatusTypeSystemVPNTitle(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("protectionStatus.type.systemVPN.title", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "protectionStatus.type.systemVPN.title"
+        }
+
+        return NSLocalizedString("protectionStatus.type.systemVPN.title", bundle: bundle, comment: "")
       }
 
       /// en translation: System for secure data storage is unavailable.
@@ -1477,6 +1675,36 @@ struct R: Rswift.Validatable {
         }
 
         return NSLocalizedString("protectionStatus.type.passcodeChange.description", bundle: bundle, comment: "")
+      }
+
+      /// en translation: The system VPN is disabled.
+      ///
+      /// Locales: en, cs, sk
+      static func protectionStatusTypeSystemVPNOk(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("protectionStatus.type.systemVPN.ok", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "protectionStatus.type.systemVPN.ok"
+        }
+
+        return NSLocalizedString("protectionStatus.type.systemVPN.ok", bundle: bundle, comment: "")
+      }
+
+      /// en translation: The system VPN is enabled.
+      ///
+      /// Locales: en, cs, sk
+      static func protectionStatusTypeSystemVPNNok(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("protectionStatus.type.systemVPN.nok", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "protectionStatus.type.systemVPN.nok"
+        }
+
+        return NSLocalizedString("protectionStatus.type.systemVPN.nok", bundle: bundle, comment: "")
       }
 
       /// en translation: This primarily serves to protect against the transfer of an application to a fraudster’s device. It's also possible to recognize that an application has been automatically transferred to another device. If this threat is detected and it was not during the migration to a new phone, a compromise may have occurred.
