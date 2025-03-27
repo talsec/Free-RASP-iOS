@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/CurlWrapper.h</key>
 		<data>
-		WqWyQ/BOnHWhheaCfjMhIuctT0I=
+		UVqr6QX3TajIeYXvEhB8unIdtIE=
 		</data>
 		<key>Headers/TalsecRuntime-Swift.h</key>
 		<data>
-		2d594rKOGMn7E3JDLp/hYfDt6JM=
+		j/BddnQsyIRlVRTI1UB7c7PD1CU=
 		</data>
 		<key>Headers/TalsecRuntime_iOS.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/curl.h</key>
 		<data>
-		xrizeZ01+10qu1HCBOrml9uJJgA=
+		7JcuJ9xCb/Sz02ACMXjfd0yQ8Eo=
 		</data>
 		<key>Headers/curlver.h</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Headers/multi.h</key>
 		<data>
-		AzzyIlFcl03pj+oQHyxjQT73BeY=
+		u9JQfefhOdb0DJi7WLRwgX8y+5o=
 		</data>
 		<key>Headers/options.h</key>
 		<data>
-		hCXxQJrlcynKIuwoXF09BbZE4sI=
+		yVBS6bGkrjLhkfT7kQsOWKojfso=
 		</data>
 		<key>Headers/stdcheaders.h</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/urlapi.h</key>
 		<data>
-		sTJK873uNT3YEH6VrCou3YSGziY=
+		fzxTrDZcLuhRDlvKZ4AUtf8ew8g=
 		</data>
 		<key>Headers/websockets.h</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		h3kJ6KL19ZAWM+x9jI7Qlm/pacs=
+		xWNx0GzhrbT9flVLimKWqbvBNuw=
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		M915Nsec5RTvWOvQc+4AVpQ1F44=
+		rITIhVkVRYBwCinbsrbD+ekbwp8=
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -86,11 +86,11 @@
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XH7/tP4STWHPUo5ZOm3EOdvdATA=
+		SsOa/CY5PY35w8TbIAKouGa5vjY=
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		M915Nsec5RTvWOvQc+4AVpQ1F44=
+		rITIhVkVRYBwCinbsrbD+ekbwp8=
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qTyPusc2md7cc5nMVTHrIz06TaA=
+		olpfYx8fxmWmu8/RAZfVIL3PdHI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -138,14 +138,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NGwhhTldnpYJsWbAnkXJnbPGpiuhpkQUCmodKuwX8Nc=
+			746qMD0DRkeOoOyI77dmMP1ina/swU7Mrn7JUCXNhB4=
 			</data>
 		</dict>
 		<key>Headers/TalsecRuntime-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q6zK53YxEMywb9TpRLf3MPu2kvrwEEq2vsvrdm0lHjU=
+			jhrwRADo+nh/mhkI6sFqg9Sw2JJJnUHRzLU9Z1VoBL8=
 			</data>
 		</dict>
 		<key>Headers/TalsecRuntime_iOS.h</key>
@@ -159,7 +159,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oSWmsDgxMWZ8QMWECtURr43XOqVWhqPuEwi9o1J+8T8=
+			PSRJlQNwyp9yePRRgWmvn5ByjVQgAIBevCbwl0NIDUY=
 			</data>
 		</dict>
 		<key>Headers/curlver.h</key>
@@ -194,14 +194,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XD5djM4D7NVGKc5vLnKZZ43PHgQIc1f4G2EVHPC2Hyw=
+			NNABCKcZlTDDWKlk2/YQEpugRFORH1ldqCtm0fEFGh0=
 			</data>
 		</dict>
 		<key>Headers/options.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CXhrgVFP5XAjWMu45bbHIy0M4HGX9yhK95dLXOyoI9I=
+			RPmalbAIiw8yWbgQqrSMqPcImM8CHxheEBFNR5eXsR4=
 			</data>
 		</dict>
 		<key>Headers/stdcheaders.h</key>
@@ -222,7 +222,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cgrRMoc9bnD4Rx27gOu8iifnlTYxXAkHW2PaUKNdLuY=
+			3LsY9dwSE79nDrA3JbnHeZeZcLH17vbmYinJEeQDfFo=
 			</data>
 		</dict>
 		<key>Headers/websockets.h</key>
@@ -236,7 +236,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uo6pApk1UYVC9pwHz6SGLYZkfIJCIpouVbZ7SjaIFpg=
+			9IQN6FwJJxirI96xKhM6iclKCaOD4uiNz8AB1B27aWY=
 			</data>
 		</dict>
 		<key>Modules/TalsecRuntime.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -264,14 +264,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LB2dA4fpTwmguPKKSEAge4Htr9vDuEnYqRwBppeLVm4=
+			0UH4EWmR16HptXZmr+lwLupn+e88RbnrglbJBMjKbVg=
 			</data>
 		</dict>
 		<key>Modules/TalsecRuntime.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uo6pApk1UYVC9pwHz6SGLYZkfIJCIpouVbZ7SjaIFpg=
+			9IQN6FwJJxirI96xKhM6iclKCaOD4uiNz8AB1B27aWY=
 			</data>
 		</dict>
 		<key>Modules/TalsecRuntime.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -299,7 +299,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ESz68dZ9OJqNPt2rykxn6rfEBTiR8lEcpZWBhaQ1j/M=
+			aYCGQwlGT1aiSWCIHqwZH+b1hcELV5mRPFLaWIiapHA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
