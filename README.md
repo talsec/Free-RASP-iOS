@@ -71,4 +71,4 @@ You can check out the project board [here](https://github.com/orgs/talsec/projec
 
 # :page_facing_up: License
 
-This project is provided as freemium software, i.e. there is a [fair usage policy](https://docs.talsec.app/freerasp/features-and-pricing-plans#plans-comparison?utm_source=github) that imposes some limitations on the free usage. The SDK software consists of open-source and binary parts, which is the property of Talsec. The open-source part is licensed under the MIT License - see the LICENSE file for details.
+This project is provided as freemium software, i.e. there is a [fair usage policy](https://docs.talsec.app/freerasp/fair-usage-policy-fup?utm_source=github) that imposes some limitations on the free usage. The SDK software consists of open-source and binary parts, which is the property of Talsec. The open-source part is licensed under the MIT License - see the LICENSE file for details.
