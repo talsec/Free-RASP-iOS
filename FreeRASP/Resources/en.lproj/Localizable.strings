@@ -74,3 +74,7 @@
 "protectionStatus.type.screenRecording.description" = "Screen recording can be used by malicious actors to capture sensitive user interactions or application flows.";
 "protectionStatus.type.screenRecording.ok" = "A screen recording of the app has not been detected.";
 "protectionStatus.type.screenRecording.nok" = "A screen recording of the app has been detected.";
+"protectionStatus.type.timeSpoofing.title" = "Time Spoofing";
+"protectionStatus.type.timeSpoofing.description" = "Time spoofing occurs when the device clock is manipulated, which can be used to bypass time-based security controls or session expiration mechanisms.";
+"protectionStatus.type.timeSpoofing.ok" = "No time spoofing detected.";
+"protectionStatus.type.timeSpoofing.nok" = "Time spoofing detected.";

@@ -471,7 +471,7 @@ struct R: Rswift.Validatable {
       fileprivate init() {}
     }
 
-    /// This `R.string.localizable` struct is generated, and contains static references to 72 localization keys.
+    /// This `R.string.localizable` struct is generated, and contains static references to 76 localization keys.
     struct localizable {
       /// en translation: A device protected by a passcode significantly increases your security.
       ///
@@ -605,6 +605,10 @@ struct R: Rswift.Validatable {
       ///
       /// Locales: en, cs, sk
       static let protectionStatusTypeSimulatorOk = Rswift.StringResource(key: "protectionStatus.type.simulator.ok", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
+      /// en translation: No time spoofing detected.
+      ///
+      /// Locales: en, cs, sk
+      static let protectionStatusTypeTimeSpoofingOk = Rswift.StringResource(key: "protectionStatus.type.timeSpoofing.ok", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
       /// en translation: Passcode
       ///
       /// Locales: en, cs, sk
@@ -729,6 +733,18 @@ struct R: Rswift.Validatable {
       ///
       /// Locales: en, cs, sk
       static let protectionStatusTypeDeviceBindingDescription = Rswift.StringResource(key: "protectionStatus.type.deviceBinding.description", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
+      /// en translation: Time Spoofing
+      ///
+      /// Locales: en, cs, sk
+      static let protectionStatusTypeTimeSpoofingTitle = Rswift.StringResource(key: "protectionStatus.type.timeSpoofing.title", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
+      /// en translation: Time spoofing detected.
+      ///
+      /// Locales: en, cs, sk
+      static let protectionStatusTypeTimeSpoofingNok = Rswift.StringResource(key: "protectionStatus.type.timeSpoofing.nok", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
+      /// en translation: Time spoofing occurs when the device clock is manipulated, which can be used to bypass time-based security controls or session expiration mechanisms.
+      ///
+      /// Locales: en, cs, sk
+      static let protectionStatusTypeTimeSpoofingDescription = Rswift.StringResource(key: "protectionStatus.type.timeSpoofing.description", tableName: "Localizable", bundle: R.hostingBundle, locales: ["en", "cs", "sk"], comment: nil)
       /// en translation: Tools for runtime app manipulation found.
       ///
       /// Locales: en, cs, sk
@@ -1257,6 +1273,21 @@ struct R: Rswift.Validatable {
         return NSLocalizedString("protectionStatus.type.simulator.ok", bundle: bundle, comment: "")
       }
 
+      /// en translation: No time spoofing detected.
+      ///
+      /// Locales: en, cs, sk
+      static func protectionStatusTypeTimeSpoofingOk(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("protectionStatus.type.timeSpoofing.ok", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "protectionStatus.type.timeSpoofing.ok"
+        }
+
+        return NSLocalizedString("protectionStatus.type.timeSpoofing.ok", bundle: bundle, comment: "")
+      }
+
       /// en translation: Passcode
       ///
       /// Locales: en, cs, sk
@@ -1720,6 +1751,51 @@ struct R: Rswift.Validatable {
         }
 
         return NSLocalizedString("protectionStatus.type.deviceBinding.description", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Time Spoofing
+      ///
+      /// Locales: en, cs, sk
+      static func protectionStatusTypeTimeSpoofingTitle(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("protectionStatus.type.timeSpoofing.title", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "protectionStatus.type.timeSpoofing.title"
+        }
+
+        return NSLocalizedString("protectionStatus.type.timeSpoofing.title", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Time spoofing detected.
+      ///
+      /// Locales: en, cs, sk
+      static func protectionStatusTypeTimeSpoofingNok(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("protectionStatus.type.timeSpoofing.nok", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "protectionStatus.type.timeSpoofing.nok"
+        }
+
+        return NSLocalizedString("protectionStatus.type.timeSpoofing.nok", bundle: bundle, comment: "")
+      }
+
+      /// en translation: Time spoofing occurs when the device clock is manipulated, which can be used to bypass time-based security controls or session expiration mechanisms.
+      ///
+      /// Locales: en, cs, sk
+      static func protectionStatusTypeTimeSpoofingDescription(preferredLanguages: [String]? = nil) -> String {
+        guard let preferredLanguages = preferredLanguages else {
+          return NSLocalizedString("protectionStatus.type.timeSpoofing.description", bundle: hostingBundle, comment: "")
+        }
+
+        guard let (_, bundle) = localeBundle(tableName: "Localizable", preferredLanguages: preferredLanguages) else {
+          return "protectionStatus.type.timeSpoofing.description"
+        }
+
+        return NSLocalizedString("protectionStatus.type.timeSpoofing.description", bundle: bundle, comment: "")
       }
 
       /// en translation: Tools for runtime app manipulation found.

@@ -74,3 +74,7 @@
 "protectionStatus.type.screenRecording.description" = "Záznam obrazovky může být zneužit škodlivými aktéry k zachycení citlivých uživatelských interakcí nebo postupů v aplikaci.";
 "protectionStatus.type.screenRecording.ok" = "Záznam obrazovky aplikace nebyl detekován.";
 "protectionStatus.type.screenRecording.nok" = "Záznam obrazovky aplikace byl detekován.";
+"protectionStatus.type.timeSpoofing.title" = "Falšování času";
+"protectionStatus.type.timeSpoofing.description" = "Falšování času nastává, když je manipulován systémový čas zařízení, což může být zneužito k obejití časových bezpečnostních kontrol nebo vypršení relace.";
+"protectionStatus.type.timeSpoofing.ok" = "Falšování času nebylo detekováno.";
+"protectionStatus.type.timeSpoofing.nok" = "Falšování času bylo detekováno.";

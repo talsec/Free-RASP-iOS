@@ -75,3 +75,7 @@
 "protectionStatus.type.screenRecording.description" = "Nahrávanie obrazovky môže byť zneužité škodlivými aktérmi na zachytenie citlivých užívateľských interakcií alebo postupov v aplikácii.";
 "protectionStatus.type.screenRecording.ok" = "Nahrávanie obrazovky aplikácie nebolo detekované.";
 "protectionStatus.type.screenRecording.nok" = "Nahrávanie obrazovky aplikácie bolo detekované.";
+"protectionStatus.type.timeSpoofing.title" = "Falšovanie času";
+"protectionStatus.type.timeSpoofing.description" = "Falšovanie času nastáva, keď je manipulovaný systémový čas zariadenia, čo môže byť zneužité na obídenie časových bezpečnostných kontrol alebo vypršania relácie.";
+"protectionStatus.type.timeSpoofing.ok" = "Falšovanie času nebolo detekované.";
+"protectionStatus.type.timeSpoofing.nok" = "Falšovanie času bolo detekované.";

@@ -36,7 +36,8 @@ enum ProtectionCategory: CaseIterable {
                 .runtimeManipulation,
                 .unofficialStore,
                 .screenshot,
-                .screenRecording
+                .screenRecording,
+                .timeSpoofing
             ]
         }
     }

@@ -27,6 +27,7 @@ class SecurityService {
         case .systemVPN:                securityRisks.insert(.systemVPN)
         case .screenshot:               securityRisks.insert(.screenshot)
         case .screenRecording:          securityRisks.insert(.screenRecording)
+        case .timeSpoofing:             securityRisks.insert(.timeSpoofing)
         case .deviceID:                 break
         @unknown default:               break
         }
