@@ -21,6 +21,7 @@ enum ProtectionType {
     case systemVPN
     case screenshot
     case screenRecording
+    case timeSpoofing
 
     var scoreDownValue: Int {
         switch self {
@@ -37,6 +38,7 @@ enum ProtectionType {
         case .systemVPN:            return 31
         case .screenshot:           return 31
         case .screenRecording:      return 31
+        case .timeSpoofing:         return 47
         }
     }
 
@@ -55,6 +57,7 @@ enum ProtectionType {
         case .systemVPN:            return L.protectionStatusTypeSystemVPNTitle()
         case .screenshot:           return L.protectionStatusTypeScreenshotTitle()
         case .screenRecording:      return L.protectionStatusTypeScreenRecordingTitle()
+        case .timeSpoofing:         return L.protectionStatusTypeTimeSpoofingTitle()
         }
     }
 
@@ -73,6 +76,7 @@ enum ProtectionType {
         case .systemVPN:            return L.protectionStatusTypeSystemVPNDescription()
         case .screenshot:           return L.protectionStatusTypeScreenshotDescription()
         case .screenRecording:      return L.protectionStatusTypeScreenRecordingDescription()
+        case .timeSpoofing:         return L.protectionStatusTypeTimeSpoofingDescription()
         }
     }
 
@@ -91,6 +95,7 @@ enum ProtectionType {
         case .systemVPN:            return L.protectionStatusTypeSystemVPNOk()
         case .screenshot:           return L.protectionStatusTypeScreenshotOk()
         case .screenRecording:      return L.protectionStatusTypeScreenRecordingOk()
+        case .timeSpoofing:         return L.protectionStatusTypeTimeSpoofingOk()
         }
     }
 
@@ -109,6 +114,7 @@ enum ProtectionType {
         case .systemVPN:            return L.protectionStatusTypeSystemVPNNok()
         case .screenshot:           return L.protectionStatusTypeScreenshotNok()
         case .screenRecording:      return L.protectionStatusTypeScreenRecordingNok()
+        case .timeSpoofing:         return L.protectionStatusTypeTimeSpoofingNok()
         }
     }
 }
