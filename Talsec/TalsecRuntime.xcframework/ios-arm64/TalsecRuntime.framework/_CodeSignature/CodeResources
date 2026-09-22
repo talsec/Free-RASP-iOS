@@ -14,11 +14,11 @@
 		</data>
 		<key>Headers/CurlWrapper.h</key>
 		<data>
-		anYuBKo/39snRu9341yuT4sgknI=
+		DA4D0g2GckGXzQuFjwIDs9AWGH4=
 		</data>
 		<key>Headers/TalsecRuntime-Swift.h</key>
 		<data>
-		K+MpDhEWmTmHLpBoXJTNiorM/hI=
+		4wB25ThIpyklVHTGPat4eF1esTE=
 		</data>
 		<key>Headers/TalsecRuntime_iOS.h</key>
 		<data>
@@ -74,15 +74,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		L9fv2APXEL43g7vdLfhTv7b7xjw=
+		KCqzIr1MN4m6cLtqcJmDoW1QBmA=
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ODo82YmOETUZuhtk4A9G080hz5g=
+		1wqsIdIXASftsAT+WnKmaDI1LIk=
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		oUnMo1B3NYVgJZkvR8AuakgiSKs=
+		mgITO8sIqzAmo2ji73szEvLUhow=
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Modules/TalsecRuntime.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		oUnMo1B3NYVgJZkvR8AuakgiSKs=
+		mgITO8sIqzAmo2ji73szEvLUhow=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -129,14 +129,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qZqf7Vg+de/lwjpc0OChQukys7D2ZQH87LxBM9kHqMY=
+			KZlGurAusW/vtc9JkZB5njfFuDcfoUYhW6apNnujz+I=
 			</data>
 		</dict>
 		<key>Headers/TalsecRuntime-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dYWxkaZbkbeDG1Tz0PHyBztVUVl+P24ifddCRuEhv/Q=
+			em4EVjW5UDJlYjpKLmc3OznkU4Y+FdbSX5q4U6ez5UM=
 			</data>
 		</dict>
 		<key>Headers/TalsecRuntime_iOS.h</key>
@@ -234,14 +234,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y5AC2YKqIt0apIbYAK4rm1HsBelOCPhWixyqVKHgWxA=
+			iV2+nDZD7FGhaOAjz+KB9ES9epPT81nA3XqCtkH9/Jo=
 			</data>
 		</dict>
 		<key>Modules/TalsecRuntime.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rAIhF9eYZrn2+fZrhvDQRpsIooulDGa0u+htIDv+Uhs=
+			W1akxT+OeUnltUbC3geS65RpwGuMm9/3vvoQWhwlrug=
 			</data>
 		</dict>
 		<key>Modules/TalsecRuntime.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -255,7 +255,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rAIhF9eYZrn2+fZrhvDQRpsIooulDGa0u+htIDv+Uhs=
+			W1akxT+OeUnltUbC3geS65RpwGuMm9/3vvoQWhwlrug=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
