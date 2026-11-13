@@ -34,9 +34,21 @@ class SecurityService {
     }
 }
 
-extension SecurityThreatCenter: SecurityThreatHandler {
+extension SecurityThreatCenter: SecurityThreatHandler, RaspExecutionState {
     public func threatDetected(_ securityThreat: SecurityThreat) {
         print("Found incident: \(securityThreat)")
         SecurityService.shared.appendThreat(securityThreat)
+    }
+    
+    public func onCriticalChecksFinished() {
+        print("onCriticalChecksFinished")
+    }
+
+    public func onFastChecksFinished() {
+        print("onFastChecksFinished")
+    }
+
+    public func onPostponedChecksFinished() {
+        print("onPostponedChecksFinished")
     }
 }
